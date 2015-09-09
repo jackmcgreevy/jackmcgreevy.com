@@ -1,0 +1,39 @@
+head	1.2;
+access;
+symbols;
+locks
+	jack:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2015.07.11.21.15.22;	author jack;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.11.21.15.22;	author jack;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@jackmcgreevy:$6$XSBh4F6pBIyoe8S6$CXoLuV8fR5RXSzO.GtUtPltwuuQ.X/OHGhhxaofpLfQFH9/zVhrMjtAYL6kstkawWKahN7UviblxIYcFivMfm.:16627::::::
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@

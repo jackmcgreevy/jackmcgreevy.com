@@ -1,0 +1,661 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201507 will be lost/reset.
+# Last config file used to build this data file was /home/jack/tmp/awstats/awstats.jackmcgreevy.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2683                
+POS_VISITOR 20499               
+POS_DAY 21793               
+POS_DOMAIN 3539                
+POS_LOGIN 3810                
+POS_ROBOT 3965                
+POS_WORMS 4332                
+POS_EMAILSENDER 4463                
+POS_EMAILRECEIVER 4606                
+POS_SESSION 22093               
+POS_SIDER 22288               
+POS_FILETYPES 4741                
+POS_DOWNLOADS 5005                
+POS_OS 5053                
+POS_BROWSER 5232                
+POS_SCREENSIZE 5633                
+POS_UNKNOWNREFERER 5707                
+POS_UNKNOWNREFERERBROWSER 6063                
+POS_ORIGIN 6237                
+POS_SEREFERRALS 6379                
+POS_PAGEREFS 6523                
+POS_SEARCHWORDS 6760                
+POS_KEYWORDS 6912                
+POS_MISC 2346                
+POS_ERRORS 6971                
+POS_CLUSTER 3666                
+POS_SIDER_404 7097                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150801034042 3 366 9723690356177
+FirstTime 20150722130852
+LastTime 20150730195254
+LastUpdate 20150801044738 3 0 2 0 0
+TotalVisits 65                  
+TotalUnique 31                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 31                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 16 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 144 490 4637558 77 154 3052007
+1 146 373 5589693 58 71 2091600
+2 148 311 4034995 54 62 1488862
+3 134 680 3329389 49 57 1909239
+4 141 654 3441670 50 62 2012549
+5 82 182 3637031 28 29 1036214
+6 200 387 7093129 48 68 2180260
+7 229 306 2783951 19 28 886257
+8 209 294 3435618 7 25 254991
+9 1 1 2864 4 4 148019
+10 3 8 89846 5 5 140651
+11 1 3 37713 2 4 66819
+12 0 0 0 1 12 530832
+13 4 10 209753 0 1 0
+14 87 246 3984147 14 34 941227
+15 128 331 4645572 17 37 771114
+16 167 439 6201940 21 89 2164736
+17 130 263 4112258 27 126 3044598
+18 98 146 861709 20 43 592247
+19 244 347 4716520 20 28 182058
+20 424 1221 9136192 66 132 1926400
+21 420 1288 6026127 102 304 2867154
+22 304 1128 5928976 173 335 2212674
+23 180 623 8521997 21 214 1226196
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 3612 9719 92421323
+ua 6 6 20137
+pa 4 4 11456
+zz 2 2 5732
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 58 2550328 20150730115901 0
+bot[\s_+:,\.\;\/\\-] 5 232529 20150729183126 0
+curl 3 21 20150726171526 0
+spider 3 111808 20150731185941 0
+robot 2 0 20150731071401 0
+checker 1 2868 20150723164238 0
+crawl 1 35286 20150728180730 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 4172 14024921 0 0
+png 38 81198 0 0
+woff 27 694660 0 0
+woff2 14 358708 0 0
+map 16 876478 0 0
+html 835 24408400 0 0
+jpg 6 37440 0 0
+js 1870 14520057 0 0
+Unknown 2732 37254245 0 0
+gif 21 202541 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+linuxandroid 4 1
+winxp 6 6
+ios_iphone 202 91
+win7 38 18
+macosx 9439 3466
+winunknown 5 5
+win2003 1 1
+Unknown 36 36
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+chrome44.0.2403.125 14 4
+chrome39.0.2171.95 6 6
+safari8.0.7 3225 2122
+chrome43.0.2357.132 88 22
+safari8.0.6 34 16
+firefox3.6.23 6 6
+iphone 2 2
+chrome44.0.2403.107 3077 404
+mozilla 18 18
+konqueror4.0 5 5
+msie7.0 1 1
+chrome41.0.2272.76 39 11
+firefox6.0 1 1
+chrome44.0.2403.89 2993 898
+chrome43.0.2357.93 4 1
+safari8.0 200 89
+Unknown 12 12
+netscape 6 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla 20150730164750
+Google_favicon 20150729161509
+Mozilla/5.0_(compatible;_U;_AnyEvent-HTTP/2.22;__http://software.schmorp.de/pkg/AnyEvent) 20150724142419
+SiteCheck_-_http://downforeveryoneorjustme.com 20150723180120
+Mozilla/4.0_(compatible;_Synapse) 20150724234159
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Google_favicon 20150729161509
+SiteCheck_-_http://downforeveryoneorjustme.com 20150723180120
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 799 827
+From1 6 6
+From2 0 0
+From3 17 17
+From4 2802 8881
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://best-seo-report.com 16 16
+http://downforeveryoneorjustme.com/jackmcgreevy.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 119 1769172
+500 881 10970976
+404 828 16053716
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 183
+/oop/assets/js/bskit-scripts.js 1 http://jackmcgreevy.com/oop/
+/index.php/oop/fundamentals/class-definition 1 -
+/assets/css/bootstrap/media.css 2 http://jackmcgreevy.com/blog/2015/he-speaks
+/assets/css/plugins.less 2 -
+/ 6 http://jackmcgreevy.com/
+/oop/assets/css/plugins.css 1 http://jackmcgreevy.com/oop/
+/index.php/dashboard 1 -
+/index.php/admin/index.php/admin/resources/js/UpdatesWidget.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/blog/2015/assets/bootstrap/css/bootstrap.css 15 http://jackmcgreevy.com/blog/2015/he-speaks
+/oop/assets/css/style-library-1.css 1 http://jackmcgreevy.com/oop/
+/assets//assets/bootstrap/css/bootstrap.min.css 2 http://jackmcgreevy.com/assets//about
+/index.php/admin/index.php/admin/resources/js/FeedWidget.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/admin/resources/js/UpdatesWidget.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/admin/resources/css/dashboard.css 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/admin/resources/js/RecentEntriesWidget.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/assets/font/roboto/Roboto-Regular.ttf 1 http://jackmcgreevy.com/assets/css/materialize.css
+/blog/assets/bootstrap/css/bootstrap-theme.css 1 http://jackmcgreevy.com/blog/2015/he-speaks
+/oop/http://jackmcgreevy.com/assets/bootstrap/css/bootstrap.css 1 http://jackmcgreevy.com/oop/http://jackmcgreevy.com/playground
+/index.php/assets/css/style-library-1.css 1 http://jackmcgreevy.com/index.php/services
+/index.php/assets/js/jquery-1.11.1.min.js 1 http://jackmcgreevy.com/index.php/services
+/blog/2015/assets/css/blocks.css 3 http://jackmcgreevy.com/blog/2015/he-speaks
+/admin/resources/lib/fileupload/jquery.ui.widget.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/blog 3 -
+/oop/assets/js/jquery-1.11.1.min.js 1 http://jackmcgreevy.com/oop/
+/assets/http://fonts.googleapis.com/css 40 http://jackmcgreevy.com/blog
+/assets//assets/js/jquery-1.11.1.min.js 1 http://jackmcgreevy.com/assets//about
+/index.php/admin 1 -
+/index.php/admin/index.php/admin/resources/lib/fileupload/jquery.ui.widget.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/assets//assets/css/style-library-1.css 2 http://jackmcgreevy.com/assets//about
+/home/jack/public_html 1 -
+/blog/2015/assets/http://fonts.googleapis.com/css 2 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/oop/ 22 -
+/assets/css/custom.less 2 -
+/index.php/admin/index.php/admin/resources/js/RecentEntriesWidget.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/assets//assets/css/plugins.css 2 http://jackmcgreevy.com/assets//about
+/index.php/assets/css/plugins.css 1 http://jackmcgreevy.com/index.php/services
+/index.php/oop/fundamentals 1 -
+/index-pine.html 1 -
+/oop/contactservicesblog/2015/he-speaksabout__home__ 2 http://jackmcgreevy.com/oop
+/blog/2015/%7B%7B%20siteUrl%20%7D%7D/assets/css/bootstrap/media.css 2 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/admin/index.php/admin/resources/lib/garnish-0.1.min.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/assets//assets/css/custom.css 2 http://jackmcgreevy.com/assets//about
+/images/brand/pgblocks-logo-nostrap.png 236 http://jackmcgreevy.com/
+/assets/css/plugins.css 1 http://jackmcgreevy.com/
+/blog/assets/css/media.css 1 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/assets/css/font-awesome.min.css 1 http://jackmcgreevy.com/index.php/services
+/blog/assets/css/main.css 1 http://jackmcgreevy.com/blog/2015/he-speaks
+/oop/session 3 -
+/assets/css/blocks.css 1 http://jackmcgreevy.com/
+/admin/resources/js/craft.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/assets/font/roboto/Roboto-Regular.woff2 1 http://jackmcgreevy.com/assets/css/materialize.css
+/index.php/admin/index.php/admin/resources/js/craft.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/index.php/fundamentals 4 -
+/oop/assets/bootstrap/css/bootstrap.css 2 http://jackmcgreevy.com/oop/playground
+/blog/2015/%7B%7B%20siteUrl%20%7D%7D/assets/css/bootstrap/bootstrap-theme.css 2 http://jackmcgreevy.com/blog/2015/he-speaks
+/assets/font/roboto/Roboto-Regular.woff 1 http://jackmcgreevy.com/assets/css/materialize.css
+/index.php/admin/dashboard 3 -
+/oop/assets/bootstrap/css/bootstrap-theme.css 2 http://jackmcgreevy.com/oop/playground
+/admin/resources/lib/xregexp-all-min.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/oop/assets/css/main.css 2 http://jackmcgreevy.com/oop/playground
+/bug 3 http://jackmcgreevy.com/oop
+/blog/2015/assets/bootstrap/css/bootstrap.min.css 3 http://jackmcgreevy.com/blog/2015/he-speaks
+/blog/https://fonts.googleapis.com/icon 1 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/assets/js/bootstrap.min.js 1 http://jackmcgreevy.com/index.php/services
+/home/jack/public_html/index.php 2 -
+/index.php/admin/index.php/admin/resources/lib/jquery.placeholder.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/assets/css/bootstrap/bootstrap-theme.css 2 http://jackmcgreevy.com/blog/2015/he-speaks
+/assets/js/plugins.js 1 http://jackmcgreevy.com/
+/playground 7 http://jackmcgreevy.com/oop
+/admin/resources/js/GetHelpWidget.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/assets//assets/js/bskit-scripts.js 1 http://jackmcgreevy.com/assets//about
+/index.php/oop/fundamentals/class-definitions 2 -
+/blog/assets/bootstrap/css/bootstrap.css 1 http://jackmcgreevy.com/blog/2015/he-speaks
+/assets/css/font-awesome.min.css 1 http://jackmcgreevy.com/
+/assets/css/custom.css 1 http://jackmcgreevy.com/
+/_index-old.html 2 -
+/assets/css/bootstrap/main.css 2 http://jackmcgreevy.com/blog/2015/he-speaks
+/oop/assets/css/custom.css 1 http://jackmcgreevy.com/oop/
+/index.php/admin/actions/users/getAuthTimeout 29 http://jackmcgreevy.com/index.php/admin/settings
+/oop/assets/bootstrap/css/bootstrap.min.css 1 http://jackmcgreevy.com/oop/
+/pinegrow 1 -
+/index.php/admin/index.php/admin/resources/lib/jquery-ui.min.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/admin/resources/lib/velocity.min.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/admin/resources/css/cp.css 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/oop/http://jackmcgreevy.com/playground 1 http://jackmcgreevy.com/oop
+/assets/css/main-white.css 4 http://jackmcgreevy.com/index-old.html
+/blog/2015/assets/js/jquery-1.11.1.min.js 3 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/admin/index.php/admin/resources/css/cp.css 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/index.php/fundamentals.html 1 -
+/project 1 http://jackmcgreevy.com/oop
+/admin/resources/css/craft.css 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/admin/resources/js/FeedWidget.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/oop/assets/js/bootstrap.min.js 1 http://jackmcgreevy.com/oop/
+/index.php/admin/index.php/admin/resources/lib/velocity.min.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/assets/bootstrap/css/bootstrap.min.less 2 -
+/index.php/oop/fundamentals/class-definition.html 2 -
+/robots.txt 12 -
+/blog/2015/assets/js/bootstrap.min.js 3 http://jackmcgreevy.com/blog/2015/he-speaks
+/assets/js/bootstrap.min.js 1 http://jackmcgreevy.com/
+/index.php/oop/fundamentals/_entry.html 2 -
+/index.php/admin/index.php/admin/resources/lib/fileupload/jquery.fileupload.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/index.php/fundamentals/ 8 http://jackmcgreevy.com/index.php/oop
+/oop/assets/css/font-awesome.min.css 1 http://jackmcgreevy.com/oop/
+/index.php/fundamentals/methods 1 http://jackmcgreevy.com/index.php/admin/entries/fundamentals
+/admin/resources/lib/jquery-ui.min.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/index.php/admin/ 9 -
+/blog/2015/assets/ico/favicon.png 1 http://jackmcgreevy.com/blog/2015/he-speaks
+/m/ 1 -
+/index.php/admin/settings/sections/7 1 http://jackmcgreevy.com/index.php/admin/settings/sections
+/blog/2015/assets/css/media.css 15 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/fundamentals/index 1 -
+/assets/css/blocks.less 2 -
+/index.php/assets/bootstrap/css/bootstrap.min.css 1 http://jackmcgreevy.com/index.php/services
+/oop/http://jackmcgreevy.com/assets/bootstrap/css/bootstrap-theme.css 1 http://jackmcgreevy.com/oop/http://jackmcgreevy.com/playground
+/index.php/admin/settings/index.html 2 -
+/assets//assets/js/plugins.js 1 http://jackmcgreevy.com/assets//about
+/blog/assets/css/normalize.css 1 http://jackmcgreevy.com/blog/2015/he-speaks
+/blog/2015/assets/css/custom.css 3 http://jackmcgreevy.com/blog/2015/he-speaks
+/admin/resources/lib/garnish-0.1.min.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/oop/fundamentals 2 -
+/index.php/admin/settings 3 -
+/assets//assets/http://fonts.googleapis.com/css 4 http://jackmcgreevy.com/assets//about
+/index.php/admin/index.php/admin/resources/lib/xregexp-all-min.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/fundamentals 11 http://jackmcgreevy.com/oop
+/oop/assets/css/blocks.css 1 http://jackmcgreevy.com/oop/
+/mobile/ 1 -
+/oop/http://jackmcgreevy.com/assets/css/media.css 1 http://jackmcgreevy.com/oop/http://jackmcgreevy.com/playground
+/assets//assets/js/bootstrap.min.js 1 http://jackmcgreevy.com/assets//about
+/blog/2015/assets/css/main.css 15 http://jackmcgreevy.com/blog/2015/he-speaks
+/blog/http://fonts.googleapis.com/css 1 http://jackmcgreevy.com/blog/2015/he-speaks
+/oop/assets/css/media.css 2 http://jackmcgreevy.com/oop/playground
+/oop/assets/ico/favicon.png 1 http://jackmcgreevy.com/oop/
+/index.php/assets/js/plugins.js 1 http://jackmcgreevy.com/index.php/services
+/blog/2015/assets/css/plugins.css 3 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/admin/index.php/admin/resources/css/craft.css 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/index.php/admin/settings/sections/7/entrytypes/8 1 http://jackmcgreevy.com/index.php/admin/settings/sections
+/index.php/assets/css/blocks.css 1 http://jackmcgreevy.com/index.php/services
+/blog/2015/assets/js/plugins.js 3 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/admin/index.php/admin/resources/lib/jquery-2.1.4.min.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/assets/ico/favicon.png 14 -
+/assets/css/style-library-1.less 2 -
+/apple-touch-icon.png 2 -
+/oop/http://jackmcgreevy.com/assets/css/normalize.css 1 http://jackmcgreevy.com/oop/http://jackmcgreevy.com/playground
+/admin/resources/js/cp.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/assets//assets/ico/favicon.png 1 http://jackmcgreevy.com/assets//about
+/index.php/contact 4 -
+/bin:/usr/bin 2 -
+/oop/http://jackmcgreevy.com/assets/css/main.css 1 http://jackmcgreevy.com/oop/http://jackmcgreevy.com/playground
+/blog/2015/assets/js/bskit-scripts.js 3 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/assets/js/bskit-scripts.js 1 http://jackmcgreevy.com/index.php/services
+/blog/2015/assets/css/normalize.css 15 http://jackmcgreevy.com/blog/2015/he-speaks
+/admin/resources/lib/jquery-2.1.4.min.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/index.php/admin/index.php/admin/resources/js/GetHelpWidget.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/oop/database 30 -
+/resources/css/global.css 1 http://jackmcgreevy.com/blog/2015/he-speaks
+/assets/css/font-awesome.min.less 2 -
+/index.php/assets/css/custom.css 1 http://jackmcgreevy.com/index.php/services
+/index.php/admin/settings/sections/7/entrytypes 1 http://jackmcgreevy.com/index.php/admin/settings/sections
+/index.php/oop 26 -
+/oop/assets/js/plugins.js 1 http://jackmcgreevy.com/oop/
+/index.php/oop/http://jackmcgreevy.com/index.php/fundamentals/ 2 http://jackmcgreevy.com/index.php/oop
+/admin/resources/lib/jquery.placeholder.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/index.php/oop/fundamentals.html 2 -
+/blog/2015/assets/css/font-awesome.min.css 3 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/admin/index.php/admin/resources/js/cp.js 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/apple-touch-icon-precomposed.png 2 -
+/assets/css/style-library-1.css 1 http://jackmcgreevy.com/
+/blog/2015/%7B%7B%20siteUrl%20%7D%7D/assets/css/bootstrap/bootstrap.css 2 http://jackmcgreevy.com/blog/2015/he-speaks
+/blog/2015/%7B%7B%20siteUrl%20%7D%7D/assets/css/bootstrap/main.css 2 http://jackmcgreevy.com/blog/2015/he-speaks
+/assets/js/jquery-1.11.1.min.js 1 http://jackmcgreevy.com/
+/assets/js/bskit-scripts.js 1 http://jackmcgreevy.com/
+/admin/resources/lib/fileupload/jquery.fileupload.js 4 http://jackmcgreevy.com/index.php/admin/dashboard
+/oop/assets/css/normalize.css 2 http://jackmcgreevy.com/oop/playground
+/index.php/admin/settings/sections 4 -
+/blog/2015/assets/bootstrap/css/bootstrap-theme.css 15 http://jackmcgreevy.com/blog/2015/he-speaks
+/assets//about 1 http://jackmcgreevy.com/
+/assets//assets/css/blocks.css 2 http://jackmcgreevy.com/assets//about
+/index.php/admin/index.php/admin/resources/css/dashboard.css 1 http://jackmcgreevy.com/index.php/admin/dashboard
+/assets/css/bootstrap/bootstrap.css 3 http://jackmcgreevy.com/blog/2015/he-speaks
+/index-old.html 1 -
+/blog/2015/assets/css/style-library-1.css 3 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/admin/settings/ 3 -
+/assets//assets/css/font-awesome.min.css 2 http://jackmcgreevy.com/assets//about
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+73.202.153.133 3540 9596 88347075 20150730163036
+24.118.243.63 15 40 1751247 20150728173923
+64.79.100.43 12 12 401021 20150730164750
+23.243.245.105 11 31 1431428 20150730195254
+46.35.245.35 6 6 20137 20150724081304
+192.196.158.109 5 5 14320 20150723221639
+64.233.172.219 4 4 102265 20150729161509
+64.233.172.227 3 3 43931 20150729161509
+52.27.0.218 2 2 5728 20150723163554
+192.126.172.131 2 2 5728 20150724064610
+179.43.138.41 2 2 5728 20150724074042
+107.77.92.27 2 5 40975 20150726021846
+10.255.242.30 2 2 5732 20150724142419
+192.126.172.161 1 1 2864 20150724051719
+192.126.172.80 1 1 2864 20150724083516
+166.88.104.72 1 1 2864 20150724214956
+74.67.99.131 1 4 201259 20150723180125
+179.43.138.66 1 1 2864 20150724131433
+50.118.223.94 1 1 2864 20150724161406
+166.88.107.240 1 1 2864 20150724102626
+66.102.6.133 1 1 2864 20150724160404
+166.88.107.250 1 1 2864 20150724205242
+192.126.172.71 1 1 2864 20150724150439
+38.100.21.62 1 1 2868 20150723063218
+192.126.169.5 1 1 2864 20150724093041
+192.126.169.215 1 1 2864 20150724234159
+179.43.138.147 1 1 2864 20150724171056
+52.24.73.253 1 1 2864 20150723180120
+66.249.81.253 1 1 2864 20150723232603
+192.126.172.35 1 1 2864 20150724140937
+64.233.172.211 1 1 36246 20150728015155
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20150722 29 107 2604570 4
+20150723 11 14 229903 7
+20150724 40 52 733257 22
+20150725 405 683 8020539 4
+20150726 1139 1915 15238043 3
+20150727 1399 3309 37228880 5
+20150728 405 2426 18309840 9
+20150729 176 1175 8328087 7
+20150730 20 50 1765529 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 13
+5mn-15mn 2
+0s-30s 41
+2mn-5mn 2
+30s-2mn 6
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 156
+/index.php/admin/actions/users/getAuthTimeout 1415 26269 0 2
+/ 660 20327216 56 43
+/oop 126 3968095 3 2
+/index.php/oop/fundamentals 90 391311 0 0
+/about 87 3240107 0 4
+/oop/ 86 2947521 2 1
+/index.php/admin/settings/sections 77 2243707 0 1
+/index.php/admin/actions/elementIndex/getElements 75 669031 0 0
+/index.php/oop 57 409386 0 0
+/index.php/admin/dashboard 56 2057086 1 0
+/index.php/admin/actions/dashboard/getFeedItems 37 419839 0 0
+/services 32 1114707 0 0
+/index.php/admin/entries/fundamentals 32 587996 0 0
+/index.php/oop/ 29 275296 1 0
+/index.php/admin/settings 27 703414 0 1
+/blog 27 889315 0 0
+/portfolio 26 651980 0 0
+/index.php/admin/actions/tasks/getRunningTaskInfo 24 0 0 0
+/index.php/admin/actions/tasks/runPendingTasks 24 0 0 0
+/blog/2015/he-speaks 20 756328 0 0
+/index.php/admin/entries 17 379671 0 0
+/index.php/admin/settings/fields 16 322573 0 0
+/admin/settings/globals 15 745433 0 0
+/index.php/admin/settings/sections/4/entrytypes 15 248155 0 0
+/index.php/admin/entries/fundamentals/new 15 491528 0 0
+/index.php/admin/settings/sections/7/entrytypes/new 3 57835 0 0
+/index.php/admin/settings/sections/4/entrytypes/4 5 95165 0 0
+/admin/settings/sections/7 1 61436 0 0
+/index.php/admin/actions/app/getCpAlerts 4 204 0 0
+/contact 13 444850 0 2
+/index.php/admin/actions/update/getAvailableUpdates 3 4571 0 0
+/index.php/admin/settings/fields/new 7 876059 0 0
+/index.php/admin/actions/update/backupDatabase 1 199 0 0
+/admin/settings/globals/new 3 186500 0 0
+/nav.html 1 23272 0 0
+/admin/settings/fields/edit/2 5 874270 0 0
+/index.php/admin/actions/update/backupFiles 1 139 0 0
+/index.php/admin/settings/fields/edit/6 2 350373 0 0
+/admin/login 3 83619 0 0
+/admin/settings 14 800960 0 0
+/index.php/admin/actions/update/prepare 1 179 0 0
+/index.php/admin/settings/sections/8/entrytypes/new 1 19529 0 0
+/index.php/admin/entries/fundamentals/11-class-definitions 3 91839 0 0
+/index.php/admin/settings/fields/2 6 141124 0 0
+/admin/resources/fonts/Craft.woff 8 168560 0 1
+/index.php/oop/project/ 1 3221 0 0
+/cpanel 2 17960 0 1
+/index.php/admin/entries/fundamentals/18-getters-and-setters 1 26250 0 0
+/index.php/admin/users 1 17549 0 0
+/index.php/blog/2015/he-speaks/ 1 6240 0 0
+/oop/session 1 23801 0 0
+/index.php/admin/entries/fundamentals/14-class-properties 1 25173 0 0
+/index.php/admin/settings/sections/4 11 247741 0 0
+/index.php/blog/ 10 32660 0 0
+/admin/dashboard 7 533480 0 0
+/index.php/admin/entries/portfolio 1 18145 0 0
+/index.php/blog 6 19056 0 0
+/admin/settings/fields/edit/4 1 181253 0 0
+/index.php/admin/updates 4 59490 0 0
+/assets/fonts/fontawesome-webfont.woff 9 357540 0 2
+/admin/globals/customGlobalSet 9 572826 0 0
+/index.php/admin/settings/fields/edit/2 2 233653 0 0
+/index.php/admin/entries/fundamentals/13-class-instances 1 25185 0 0
+/admin/entries/fundamentals 1 52215 0 0
+/assets/fonts/fontawesome-webfont.woff2 13 340680 0 0
+/index.php/admin/actions/elementIndex/performAction 2 21482 0 0
+/index.php/admin/entries/fundamentals/12-class-methods 1 34235 0 0
+/admin/entries/blog 1 53143 0 0
+/index.php/admin/actions/fields/deleteField 1 16 0 0
+/index.php/admin/settings/fields/edit/5 3 351574 0 0
+/index.php/admin/actions/users/login 7 532 0 0
+/index.php/admin/actions/globals/deleteSet 1 16 0 0
+/admin/settings/sections 14 1297872 0 0
+/pinegrow 10 309395 0 0
+/index.php/admin/entries/fundamentals/17-static-modifier 1 26299 0 0
+/index.php/admin/settings/sections/3 2 44938 0 0
+/admin/settings/sections/8/entrytypes/9 1 71750 0 0
+/admin/settings/globals/23 5 324210 0 0
+/assets/bootstrap/css/bootstrap.css.map 8 781036 0 0
+/index.php/admin/actions/fields/saveGroup 1 48 0 0
+/index.php/admin/settings/sections/4/entrytypes/new 1 19204 0 0
+/admin/entries/blog/new 1 86030 0 0
+/index 1 28597 0 0
+/index.php/admin/actions/update/processDownload 1 141 0 0
+/index.php/admin/assets 4 65906 0 0
+/index.php/admin/entries/fundamentals/12-methods 1 34338 0 0
+/index.php/admin/resources/fonts/Craft.woff 10 168560 0 0
+/admin/entries 11 582160 0 0
+/admin/settings/globals/22 5 323794 0 0
+/index.php/admin/actions/update/cleanUp 1 54 0 0
+/index.php/admin/entries/fundamentals/11-definitions 2 59729 0 0
+/index.php/admin/settings/general 2 115410 0 0
+/admin/settings/sections/8 3 184463 0 0
+/index.php/portfolio 7 18389 0 0
+/admin/settings/fields/1 6 325464 0 0
+/index.php/admin/settings/fields/edit/1 2 233783 0 0
+/index.php/admin/entries/oop 2 36800 0 0
+/index.php/admin/entries/fundamentals/15-class-inheritance 1 25386 0 0
+/index.php/admin/settings/sections/7 13 292511 0 0
+/admin/globals/globalSetCustom 7 465247 0 0
+/index.php/admin/login 8 107250 2 1
+/index.php/oop/project 1 3221 0 0
+/index.php/admin/settings/globals 1 15627 0 0
+/index.php/about/ 4 44556 0 0
+/index.php/admin/settings/sections/8/entrytypes/9 9 336329 0 0
+/oop/fundamentals/ 11 373573 0 1
+/index.php/admin/settings/fields/1 12 329036 0 0
+/index.php/admin/updates/go/craft 1 10983 0 0
+/index.php/admin/actions/app/transferLicenseToCurrentDomain 1 16 0 0
+/admin/entries/fundamentals/20-constructors-and-destructors 1 107096 0 0
+/index.php/admin/actions/update/updateDatabase 1 186 0 0
+/index.php/admin/actions/elements/getModalBody 2 4990 0 0
+/index.php/admin/resources/assetthumbs/8/60 2 3252 0 0
+/index.php/admin/entries/fundamentals/16-class-access 1 25518 0 0
+/index.php/admin/settings/sections/7/entrytypes/8 6 112832 0 0
+/oop/playground 7 201662 0 0
+/index.php/ 4 11797 0 0
+/admin/entries/fundamentals/18-getters-and-setters 1 103223 0 0
+/assets/ 1 438 0 0
+/index.php/admin/entries/portfolio/5-portfolio 1 23804 0 0
+/index.php/services/ 1 2708 0 0
+/index.php/portfolio/ 2 5418 0 0
+/index.php/blog/2015/he-speaks 2 12316 0 2
+/admin/settings/sections/12/entrytypes/13 2 140526 0 0
+/index.php/admin/settings/sections/7/entrytypes 5 80722 0 0
+/admin/settings/sections/new 2 122474 0 0
+/index.php/admin/actions/app/checkForUpdates 4 112 0 0
+/index.php/about 14 38090 0 0
+/index.php/admin/actions/sections/deleteEntryType 1 16 0 0
+/index.php/admin/entries/oop/new 2 44407 0 0
+/admin/settings/sections/8/entrytypes 2 109330 0 0
+/index.php/admin/settings/fields/edit/4 4 503088 0 0
+/index.php/admin/actions/sections/deleteSection 1 16 0 0
+/admin/settings/fields/new 3 520436 0 0
+/index.php/admin/settings/sections/8/entrytypes 14 382505 0 0
+/index.php/admin/actions/app/switchToLicensedEdition 1 16 0 0
+/admin/resources/defaultuserphoto/60 3 1035 0 0
+/index.php/admin/entries/fundamentals/20-constructors-and-destructors 1 26238 0 0
+/index.php/admin/actions/update/updateFiles 1 147 0 0
+/index.php/admin/entries/fundamentals/19-static-reference 1 25531 0 0
+/index.php/admin/resources/defaultuserphoto/60 4 1380 0 0
+/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2 1 18028 0 1
+/admin/settings/fields 5 268236 0 0
+/index.php/admin/settings/sections/new 8 326544 0 0
+/index.php/admin/actions/elements/getEditorHtml 3 10360 0 0
+/index.php/admin/settings/sections/5 1 22517 0 0
+/index.php/admin/settings/sections/4/entrytypes/6 7 135119 0 0
+/admin/settings/sections/12 3 184387 0 0
+/assets/bootstrap/css/bootstrap-theme.css.map 8 95442 0 0
+/index-old.html 9 297489 0 0
+/index.php/admin/settings/sections/8 6 135423 0 0
+/admin/globals/primaryGlobalSet 13 817945 0 0
+/index.php/admin/actions/elements/saveElement 1 172 0 0
+/index.php/oop/fundamentals/ 15 56995 0 0
+/admin/settings/fields/2 1 52901 0 0
+/index.php/services 6 15756 0 0
+END_SIDER

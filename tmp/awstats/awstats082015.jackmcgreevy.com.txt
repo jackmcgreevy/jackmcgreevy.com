@@ -1,0 +1,710 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201508 will be lost/reset.
+# Last config file used to build this data file was /home/jack/tmp/awstats/awstats.jackmcgreevy.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2675                
+POS_VISITOR 18304               
+POS_DAY 21792               
+POS_DOMAIN 3557                
+POS_LOGIN 4174                
+POS_ROBOT 4329                
+POS_WORMS 4754                
+POS_EMAILSENDER 4885                
+POS_EMAILRECEIVER 5028                
+POS_SESSION 22529               
+POS_SIDER 22737               
+POS_FILETYPES 5163                
+POS_DOWNLOADS 5475                
+POS_OS 5523                
+POS_BROWSER 5770                
+POS_SCREENSIZE 6648                
+POS_UNKNOWNREFERER 6722                
+POS_UNKNOWNREFERERBROWSER 7012                
+POS_ORIGIN 7248                
+POS_SEREFERRALS 7391                
+POS_PAGEREFS 7535                
+POS_SEARCHWORDS 8096                
+POS_KEYWORDS 8248                
+POS_MISC 2339                
+POS_ERRORS 8307                
+POS_CLUSTER 4030                
+POS_SIDER_404 8432                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150901001303 91 21431 12621587264496
+FirstTime 0
+LastTime 20150831233550
+LastUpdate 20150901080802 91 0 90 0 0
+TotalVisits 151                 
+TotalUnique 83                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 84                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 258 706 47054499 10 4514 77534974
+1 305 905 205045280 24 3874 68951186
+2 59 59 113877 3 9 681099
+3 66 86 1365159 12 47 1805497
+4 15 32 1176873 7 29 796420
+5 42 42 37419 2 4 48587
+6 54 75 1457869 2 7 152423
+7 42 93 2706551 5 32 808936
+8 6 16 806577 2 8 207747
+9 6 31 1607789 6 9 375538
+10 28 60 2654157 3 42 996679
+11 50 67 1356663 3 9 397385
+12 73 150 4980636 4 18 526055
+13 64 91 2022508 9 31 971150
+14 179 391 33356425 9 39 1110356
+15 433 1209 13373028 25 135 3447512
+16 385 1053 31522000 6 72 2190448
+17 407 1087 40901902 8 364 10149366
+18 529 1117 519720267 21 324 8999852
+19 522 1206 40328081 46 254 7085100
+20 397 857 13842106 17 124 3486935
+21 414 822 567967280 16 194 5444872
+22 259 451 12187226 32 149 4129316
+23 281 738 23663564 14 73 1982086
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 27
+us 4788 10901 1546077078
+br 31 199 10629833
+il 7 22 837620
+ar 6 36 1972763
+ru 4 4 105974
+fr 3 3 113261
+in 3 13 695846
+nl 3 3 113105
+cl 2 12 654967
+ao 2 12 654943
+ph 2 12 657597
+mx 2 12 657013
+ro 2 12 657962
+co 2 12 657990
+dz 2 9 622333
+bo 2 12 657964
+ae 2 12 657592
+pr 2 12 657596
+cn 1 1 15300
+es 1 1 36906
+my 1 11 535443
+eu 1 1 37803
+ec 1 11 535899
+ca 1 1 38041
+se 1 1 37701
+hr 1 8 393306
+ve 1 11 535900
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+googlebot 167 7055156 20150831192909 0
+spider 43 1562376 20150831133116 0
+bot[\s_+:,\.\;\/\\-] 18 856243 20150831131708 0
+googlebot\-image 5 478984 20150826025045 0
+crawl 5 189877 20150822231825 0
+robot 4 0 20150827225218 0
+no_user_agent 1 0 20150809231617 0
+netcraft 1 37966 20150806143826 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 3981 123586822 0 0
+png 147 325596 0 0
+ttf 28 3418576 0 0
+woff2 406 22371320 0 0
+woff 52 1792092 0 0
+php 1 38853 0 0
+map 2 438239 0 0
+html 324 12458642 0 0
+jpg 290 1272256631 0 0
+js 2010 77108345 0 0
+Unknown 4061 54984484 0 0
+gif 42 468136 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+blackberry 2 2
+winlong 2 0
+macosx6 1 0
+winxp 3 3
+ios_iphone 99 44
+linux 15 11
+win7 492 100
+macosx 10656 4676
+win8 1 0
+macosx9 1 0
+win8.1 35 9
+Unknown 23 23
+macosx8 2 2
+macosx7 12 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 44
+firefox28.0 2 1
+msie6.0 3 3
+firefox20.0 1 1
+firefox26.0 3 1
+chrome44.0.2403.130 540 150
+chrome12.0.742.91 2 0
+chrome31.0.1650.57 2 1
+chrome31.0.1650.63 5 1
+safari8.0.7 1033 736
+firefox34.0 3 3
+msie11 1 0
+safari7.0.1 1 0
+safari8.0.6 28 8
+firefox31.0 1 1
+iphone 2 2
+chrome37.0.2062.120 4 4
+firefox23.0 2 2
+chrome41.0.2272.76 58 33
+safari8.0 97 42
+msie9.0 1 1
+Unknown 8 8
+firefox27.0 1 1
+blackberry 2 2
+safari8.0.8 696 551
+firefox40.0 32 7
+firefox29.0 1 0
+chrome44.0.2403.155 3969 1859
+chrome13.0.782.215 11 3
+chrome44.0.2403.107 26 6
+chrome36.0.1985.143 397 62
+safari9.0 1234 809
+mozilla 17 17
+firefox25.0 2 0
+firefox39.0 29 14
+chrome44.0.2403.157 3067 523
+chrome11.0.699.0 1 1
+chrome35.0.1916.153 32 5
+firefox37.0 2 2
+firefox14.0.1 5 5
+msie10.0 1 1
+chrome25.0.1364.172 1 1
+safari6.1.1 1 1
+chrome11.0.696.71 2 2
+safari8.0.3 18 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+IE20 20150819063622
+Google_favicon 20150810214515
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20150819040935
+Mozilla/4.0_(compatible;_Synapse) 20150830173823
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+IE20 20150819063622
+Google_favicon 20150810214515
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20150819040935
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 439 460
+From1 0 0
+From2 0 0
+From3 64 64
+From4 4371 10820
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 12
+http://success-seo.com/try.php 28 28
+http://best-seo-report.com 15 15
+http://buttons-for-website.com 7 7
+http://video--production.com 4 4
+http://127.0.0.1:40000/http://jackmcgreevy.com/ 2 2
+http://127.0.0.1:40000/http://jackmcgreevy.com/blog 2 2
+http://pizza-tycoon.com 1 1
+http://hvd-store.com 1 1
+http://jackalapparel.com 1 1
+http://hundejo.com 1 1
+http://burger-imperia.com 1 1
+http://JACKLINCREATIVE.COM 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 75 4339306
+500 25 1002257
+404 9987 186757354
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 136
+/assets/css/plugins.less 6 -
+/index.php/assets/css/v2/custom-v2.css 1 http://jackmcgreevy.com/index.php/about
+/about/assets/css/font-awesome.min.css 1 http://jackmcgreevy.com/about/index.html
+/about/assets/ico/favicon.png 1 http://jackmcgreevy.com/about/index.html
+/blog/assets/bootstrap/css/bootstrap-theme.css 3 http://jackmcgreevy.com/blog/index.html
+/blog/2015/assets/css/font-awesome.min.less 1 -
+/blog/2015/%7B%7B%20siteUrl%20%7D%7D/assets/img/catalina/catalina-wrigley-memorial.jpg 1 http://jackmcgreevy.com/blog/2015/yes-im-still-alive
+/index.php/assets/css/style-library-1.css 1 -
+/index.php/assets/js/jquery-1.11.1.min.js 1 -
+/assets/css/fonts/fontawesome-webfont.woff 1 http://jackmcgreevy.com/assets/css/v2/font-awesome-v2.min.css
+/oop 1 -
+/blog/2015/assets/css/blocks.css 37 http://jackmcgreevy.com/blog/2015/he-speaks
+/assets/css/v2/custom-v2.css 9 http://www.jackmcgreevy.com/index.php
+/index.php/blog/2015/assets/css/style-library-1.css 1 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/blog/2015/the-story-so-far 1 http://jackmcgreevy.com/admin/entries/blog
+/index.php/blog/2015/assets/js/bskit-scripts.js 4 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/index.php/blog/2015/assets/css/font-awesome.min.css 3 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/home/jack/public_html 2 -
+/admin/assets/css/custom.css 2 -
+/admin/entries/blog/assets/js/plugins.js 2 -
+/assets/css/custom.less 6 -
+/admin/entries/blog/assets/js/bskit-scripts.js 2 -
+/index.php/blog/2015/assets/css/v2/custom-v2.css 2 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/He%20Speaks! 2 http://jackmcgreevy.com/blog
+/Yes,%20I'm%20Still%20Alive 2 http://jackmcgreevy.com/blog
+/index.php/assets/css/plugins.css 1 -
+/blog/2015/pack-animals 1 http://jackmcgreevy.com/blog
+/images/brand/pgblocks-logo-nostrap.png 30 -
+/about/assets/css/plugins.css 1 http://jackmcgreevy.com/about/index.html
+/assets/img/catalina/catalina-wrigley-memorial.jpg 1 http://jackmcgreevy.com/blog/2015/yes-im-still-alive
+/admin/assets/css/font-awesome.min.css 2 -
+/blog/assets/css/media.css 3 http://jackmcgreevy.com/blog/index.html
+/index.php/assets/css/font-awesome.min.css 1 -
+/blog/assets/css/main.css 3 http://jackmcgreevy.com/blog/index.html
+/index.php/blog/2015/assets/js/bootstrap.min.js 3 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/%3Cp%3EHello%20my%20loyal%20followers.%20Alas,%20this%20will%20come%20as%20a%20surprise%20to%20many%20but%20I%20am%20not%20dead.%20I%20am%20also%20not%20horribly%20injured.%20I%20realize%20that%20it%20has%20been%20many%20weeks%20since%20my%20last%20update 1 http://jackmcgreevy.com/blog
+/index.php/news 3 -
+/blog/2015/assets/css/blocks.less 1 -
+/index.php/blog/2015/assets/css/blocks.css 1 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/blog/2015/assets/bootstrap/css/bootstrap.min.css 38 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/assets/js/bootstrap.min.js 1 -
+/home/jack/public_html/index.php 2 -
+/assets/css/v2/plugins-v2.css 9 http://www.jackmcgreevy.com/index.php
+/about/assets/js/bootstrap.min.js 1 http://jackmcgreevy.com/about/index.html
+/README.txt 1 -
+/admin/assets/css/blocks.css 2 -
+/admin/entries/blog/assets/js/jquery-1.11.1.min.js 2 -
+/assets/css/fonts/fontawesome-webfont.woff2 1 http://jackmcgreevy.com/assets/css/v2/font-awesome-v2.min.css
+/blog/2015/yes-im-still-alive 3 http://jackmcgreevy.com/blog
+/blog/assets/bootstrap/css/bootstrap.css 3 http://jackmcgreevy.com/blog/index.html
+/admin/entries/blog/%7B%7B%20siteUrl%20%7D%7D/assets/img/catalina/catalina-wrigley-memorial.jpg 1 http://jackmcgreevy.com/admin/entries/blog/24-yes-im-still-alive
+/blog/2015/assets/css/style-library-1.less 1 -
+/js/contact-form.php 4 http://jackmcgreevy.com/contact
+/index.php/blog/2015/assets/js/plugins.js 3 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/index.php/images/brand/pgblocks-logo-nostrap.png 1 -
+/blog/2015/assets/css/custom.less 1 -
+/blog/assets/css/plugins.css 2 http://jackmcgreevy.com/blog/2015/yes-im-still-alive
+/blog/2015/assets/js/jquery-1.11.1.min.js 278 http://jackmcgreevy.com/blog/2015/he-speaks
+/assets/css/fonts/fontawesome-webfont.ttf 1 http://jackmcgreevy.com/assets/css/v2/font-awesome-v2.min.css
+/about/assets/css/style-library-1.css 1 http://jackmcgreevy.com/about/index.html
+/blog/2015/assets/bootstrap/css/bootstrap.min.less 1 -
+/assets/css/v2/style-library-1-v2.css 9 http://www.jackmcgreevy.com/index.php
+/assets/bootstrap/css/bootstrap.min.less 6 -
+/%3Cp%3E%20%C2%A0%C2%A0%C2%A0%C2%A0%20Hello%20world,%20welcome%20to%20my%20blog.%20Here%20I%20will%20be%20documenting%20my%20progress%20as%20I%20further%20my%20education%20and%20build%20this%20site.%20I'll%20also%20include%20various%20tidbits%20about%20my% 1 http://jackmcgreevy.com/blog
+/robots.txt 55 -
+/blog/2015/assets/js/bootstrap.min.js 278 http://jackmcgreevy.com/blog/2015/he-speaks
+/admin/assets/img/vacation/cape-cod-meadow.jpg 2741 http://jackmcgreevy.com/admin/entries/blog/24-yes-im-still-alive
+/index.php/blog/2015/assets/css/plugins.css 1 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/index.php/blog/2015/assets/css/custom.css 1 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/about/assets/css/blocks.css 1 http://jackmcgreevy.com/about/index.html
+/%20blog 1 -
+/index.php/blog/2015/assets/css/v2/plugins-v2.css 2 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/about/assets/js/bskit-scripts.js 1 http://jackmcgreevy.com/about/index.html
+/index.php/blog/2015/assets/bootstrap/css/bootstrap.min.css 3 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/blog/2015/assets/ico/favicon.png 10 http://jackmcgreevy.com/blog/2015/he-speaks
+/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/blog/2015/assets/img/catalina/catalina-wrigley-memorial.jpg 1 http://jackmcgreevy.com/blog/2015/yes-im-still-alive
+/assets/images/water-bg.jpg 1 -
+/assets/css/blocks.less 6 -
+/index.php/assets/bootstrap/css/bootstrap.min.css 1 -
+/blog/2015/the-story-so-far-1 1 http://jackmcgreevy.com/blog
+/blog/assets/css/normalize.css 3 http://jackmcgreevy.com/blog/index.html
+/blog/2015/assets/css/custom.css 37 http://jackmcgreevy.com/blog/2015/he-speaks
+/1 1 http://jackmcgreevy.com/blog
+/index.php/assets/css/v2/blocks-v2.css 1 http://jackmcgreevy.com/index.php/about
+/admin/assets/css/plugins.css 2 -
+/admin/assets/img/vacation/catalina-wrigley-memorial.jpg 2758 http://jackmcgreevy.com/admin/entries/blog/24-yes-im-still-alive
+/about/assets/css/custom.css 1 http://jackmcgreevy.com/about/index.html
+/apple-touch-icon-120x120.png 7 -
+/index.php/blog/2015/assets/css/v2/blocks-v2.css 2 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/apple-touch-icon-120x120-precomposed.png 7 -
+/about/assets/js/jquery-1.11.1.min.js 1 http://jackmcgreevy.com/about/index.html
+/admin/assets/bootstrap/css/bootstrap.min.css 2 -
+/a 1 -
+/index.php/assets/js/plugins.js 1 -
+/blog/2015/assets/css/plugins.css 37 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/assets/css/blocks.css 1 -
+/blog/2015/assets/css/plugins.less 1 -
+/blog/2015/assets/js/plugins.js 278 http://jackmcgreevy.com/blog/2015/he-speaks
+/README.md 1 -
+/apple-touch-icon.png 29 -
+/assets/css/normalize.less 1 -
+/assets/css/style-library-1.less 6 -
+/assets/ico/favicon.png 34 -
+/bin:/usr/bin 3 -
+/blog/2015/assets/js/bskit-scripts.js 278 http://jackmcgreevy.com/blog/2015/he-speaks
+/blog/2015/assets/css/normalize.css 3 http://jackmcgreevy.com/blog/2015/the-story-so-far-1
+/admin/entries/blog/assets/js/bootstrap.min.js 2 -
+/index.php/assets/js/bskit-scripts.js 1 -
+/about/assets/bootstrap/css/bootstrap.min.css 1 http://jackmcgreevy.com/about/index.html
+/assets/css/font-awesome.min.less 6 -
+/index.php/assets/css/custom.css 1 -
+/index.php/blog/2015/assets/css/v2/style-library-1-v2.css 2 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/admin/entries/blog/{asset:35:url} 2 http://jackmcgreevy.com/admin/entries/blog/24-yes-im-still-alive
+/about/assets/js/plugins.js 1 http://jackmcgreevy.com/about/index.html
+/blog/assets/bootstrap/css/bootstrap.min.css 1 http://jackmcgreevy.com/blog/2015/yes-im-still-alive
+/index.php/assets/css/v2/plugins-v2.css 1 http://jackmcgreevy.com/index.php/about
+/assets/css/v2/blocks-v2.css 9 http://www.jackmcgreevy.com/index.php
+/assets/js/%25url%25 1 -
+/blog/2015/assets/css/font-awesome.min.css 38 http://jackmcgreevy.com/blog/2015/he-speaks
+/blog/assets/css/custom.css 5 http://jackmcgreevy.com/blog/2015/yes-im-still-alive
+/apple-touch-icon-precomposed.png 22 -
+/admin/assets/img/catalina/catalina-wrigley-memorial.jpg 13 http://jackmcgreevy.com/admin/entries/blog/24-yes-im-still-alive
+/admin/assets/css/style-library-1.css 2 -
+/assets/img/jack-tumblr.jpg 7 http://jackmcgreevy.com/about
+/index.php/news/2015/we-just-installed-craft 2 -
+/index.php/assets/ico/favicon.png 1 -
+/blog/assets/css/blocks.css 2 http://jackmcgreevy.com/blog/2015/yes-im-still-alive
+/blog/assets/css/font-awesome.min.css 1 http://jackmcgreevy.com/blog/2015/yes-im-still-alive
+/index.php/assets/css/v2/style-library-1-v2.css 1 http://jackmcgreevy.com/index.php/about
+/index.php/blog/2015/assets/js/jquery-1.11.1.min.js 3 http://jackmcgreevy.com/index.php/blog/2015/he-speaks
+/blog/2015/assets/css/style-library-1.css 37 http://jackmcgreevy.com/blog/2015/he-speaks
+/index.php/blog/2015/assets/ico/favicon.png 2 -
+/admin/assets/img/vacation/catalina-hammock.jpg 2701 http://jackmcgreevy.com/admin/entries/blog/24-yes-im-still-alive
+/blog/2015/%7Basset:35:url%7D 1 http://jackmcgreevy.com/blog/2015/yes-im-still-alive
+/blog/assets/css/style-library-1.css 2 http://jackmcgreevy.com/blog/2015/yes-im-still-alive
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 84
+73.202.153.133 4639 10550 1533145649 20150831233550
+23.243.245.105 22 72 1811885 20150810214517
+166.170.5.58 22 41 1841863 20150805105143
+24.118.243.63 20 35 1710224 20150814193913
+76.118.146.207 14 29 1483525 20150813191933
+108.221.22.100 13 48 2495744 20150827045632
+66.225.117.12 13 53 344934 20150804154024
+69.58.178.56 7 7 246128 20150818195907
+82.80.249.155 6 20 732339 20150831004815
+216.38.216.197 3 11 589212 20150822072624
+94.23.217.201 3 3 113261 20150802205342
+200.112.57.29 2 12 654967 20150812123126
+180.190.66.29 2 12 657597 20150819203919
+5.107.60.123 2 12 657962 20150825130435
+66.249.84.173 2 2 60118 20150807151805
+197.217.103.115 2 12 654943 20150812094203
+187.56.145.144 2 13 667299 20150831180051
+186.210.130.55 2 12 657600 20150817235646
+115.252.166.164 2 12 657965 20150824082734
+107.173.148.178 2 2 73316 20150830105245
+68.189.239.127 2 12 657598 20150819210041
+86.99.147.45 2 12 657592 20150819122101
+186.229.1.116 2 12 658042 20150827131659
+98.22.153.48 2 12 657588 20150813163450
+190.173.0.226 2 12 657571 20150819143459
+201.67.154.30 1 9 421127 20150820143906
+171.25.193.26 1 1 37701 20150819025544
+62.219.8.233 1 1 14330 20150830215809
+192.237.216.89 1 1 37853 20150807220348
+37.48.112.74 1 1 37499 20150819063622
+96.44.189.102 1 1 37798 20150808142110
+82.80.249.225 0 1 90951 
+181.113.191.45 1 11 535899 20150822121209
+191.205.44.191 1 9 407784 20150817220532
+192.99.150.120 1 1 38041 20150804190706
+190.77.110.178 1 11 535900 20150825150143
+171.43.254.227 1 1 15300 20150815064823
+201.75.109.148 1 11 535901 20150822230740
+188.226.232.205 1 1 37803 20150819040935
+187.38.144.159 2 12 657993 20150822212427
+187.56.127.143 2 12 657108 20150827210432
+93.158.215.178 2 2 30814 20150804070455
+177.202.237.240 2 12 657572 20150819092555
+52.76.65.216 1 1 36742 20150828080643
+141.138.141.208 1 1 37808 20150806223756
+194.106.22.4 1 1 36906 20150829023813
+179.125.45.152 1 6 295261 20150828091706
+190.129.127.7 2 12 657964 20150824171737
+93.137.100.255 1 8 393306 20150820042823
+61.2.50.39 1 1 37881 20150822070753
+189.31.52.209 2 12 657617 20150821062204
+177.156.54.194 2 12 657083 20150828122702
+52.68.52.17 1 1 37845 20150818181140
+107.173.155.199 2 2 73316 20150830085634
+181.139.200.186 2 12 657990 20150821210525
+187.63.160.1 1 11 535507 20150817205332
+172.245.124.190 2 2 73316 20150830143546
+201.88.113.66 2 12 657536 20150829173153
+66.249.84.178 2 2 44560 20150810214515
+115.135.240.77 1 11 535443 20150830063433
+189.217.176.63 2 12 657013 20150827183210
+70.35.140.82 2 12 657596 20150819144831
+204.124.83.130 2 2 75212 20150820081527
+216.163.188.220 1 1 37900 20150822070913
+187.17.148.106 1 8 501236 20150821133114
+23.95.130.195 2 2 73300 20150830051907
+177.46.200.34 2 12 657572 20150819111356
+107.173.159.125 1 1 36657 20150830124658
+191.251.117.194 2 11 652831 20150821213116
+107.173.160.156 2 2 73316 20150830070906
+107.173.156.241 1 1 36658 20150829195414
+41.96.46.13 2 9 622333 20150828115402
+179.38.136.101 2 12 657595 20150812205133
+146.0.77.237 1 1 37798 20150807190008
+189.120.112.20 1 1 37684 20150825155238
+107.173.149.173 1 1 36940 20150830010646
+107.173.150.138 2 2 73314 20150830173823
+66.249.84.184 2 2 75674 20150810214515
+166.216.157.76 1 1 26333 20150829031916
+94.103.80.202 2 2 75160 20150821101831
+166.216.157.25 1 1 34697 20150815225532
+186.13.6.21 2 12 657597 20150816101156
+177.34.109.83 2 12 657080 20150828005816
+198.101.238.203 1 1 37863 20150807214551
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20150802 3 3 113261 1
+20150804 16 56 413789 4
+20150805 22 41 1841863 1
+20150806 5 15 698479 2
+20150807 14 34 495429 10
+20150808 11 31 1452491 3
+20150810 11 31 872707 4
+20150812 270 811 16103545 6
+20150813 45 125 4762152 5
+20150814 725 1286 11125267 2
+20150815 200 289 6549726 5
+20150816 12 22 657727 11
+20150817 6 34 1676277 5
+20150818 46 89 2423629 4
+20150819 28 119 6143168 11
+20150820 139 214 3993851 5
+20150821 1545 3069 1117609201 9
+20150822 9 47 2394786 6
+20150823 11 36 1893823 2
+20150824 325 400 4094959 3
+20150825 4 24 1231546 3
+20150827 181 897 83511426 8
+20150828 574 1459 41592897 9
+20150829 67 86 1272398 11
+20150830 209 708 27258718 13
+20150831 396 1418 229064621 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 14
+5mn-15mn 6
+15mn-30mn 1
+0s-30s 114
+30s-2mn 4
+2mn-5mn 5
+30mn-1h 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 113
+/index.php/admin/actions/users/getAuthTimeout 2435 43886 19 24
+/assets/fonts/fontawesome-webfont.woff2 406 22371320 0 6
+/ 320 12357900 115 67
+/blog 295 11729988 4 3
+/blog/2015/yes-im-still-alive 226 11009307 1 0
+/index.php/admin/actions/tools/performAction 109 13688 0 0
+/about 108 3910911 1 6
+/index.php/admin/actions/elementIndex/getElements 106 817539 0 0
+/services 74 2631347 0 2
+/portfolio 68 2059748 0 1
+/index.php/admin/actions/tasks/getRunningTaskInfo 51 0 0 0
+/index.php/admin/actions/tasks/runPendingTasks 51 0 0 0
+/contact 42 1563646 0 2
+/admin/entries/blog/24-yes-im-still-alive 30 4097036 0 0
+/blog/2015/pack-animals 29 1030403 0 0
+/admin/resources/fonts/Craft.woff 28 433440 0 2
+/assets/fonts/fontawesome-webfont.ttf 28 3418576 0 28
+/blog/2015/the-story-so-far 27 1362790 0 1
+/admin/entries 25 1322533 0 0
+/assets/fonts/fontawesome-webfont.woff 24 1358652 0 1
+/admin/login 23 591893 7 3
+/index.php/admin/actions/dashboard/getFeedItems 21 242537 0 1
+/admin/dashboard 17 1265421 0 0
+/admin/resources/defaultuserphoto/60 17 4485 0 0
+/admin/entries/blog 16 838374 0 0
+/admin/entries/blog/24-the-story-so-far 4 609190 0 0
+/admin/resources/assetthumbs/8/60 4 6504 0 0
+/admin/entries/blog/83-the-story-so-far 3 422475 0 0
+/index.php/admin/actions/app/getCpAlerts 10 20 0 0
+/index.php/admin/actions/users/uploadUserPhoto 3 1416 0 0
+/admin/settings/sections/7 1 61547 0 0
+/index.php/admin/actions/update/cleanUp 2 108 0 0
+/index.php/admin/actions/update/getAvailableUpdates 2 5116 0 0
+/admin/settings/sections/2/entrytypes 7 383600 0 0
+/index.php/admin/actions/update/backupDatabase 2 398 0 0
+/admin/entries/blog/7-he-speaks 3 316927 0 0
+/blog/2015/he-speaks 7 255297 0 1
+/admin/resources/assetthumbs/74/60 3 3504 0 0
+/index.php/admin/actions/update/backupFiles 2 278 0 0
+/admin/resources/assetthumbs/55/60 3 5841 0 0
+/oop 4 90435 3 3
+/admin/settings/fields/1 1 55235 0 0
+/admin/resources/assetthumbs/72/60 3 4263 0 0
+/admin/resources/assetthumbs/73/60 3 3873 0 0
+/admin/resources/assetthumbs/77/60 4 8188 0 0
+/admin/resources/assetthumbs/75/60 3 3405 0 0
+/admin/resources/assetthumbs/78/60 2 3586 0 0
+/admin/resources/assetthumbs/36/60 3 5538 0 0
+/admin/settings 12 685728 0 0
+/index.php/admin/actions/update/prepare 2 358 0 0
+/blog/2015/the-story-so-far-1 1 56139 0 0
+/index.php/admin/actions/users/cropUserPhoto 2 824 0 0
+/admin/resources/assetthumbs/34/60 2 4094 0 0
+/admin/settings/assets/sources/1 4 313515 0 0
+/admin/users 9 482861 0 0
+/admin/entries/portfolio/5-portfolio 1 73105 0 0
+/admin/resources/assetthumbs/38/60 3 3342 0 0
+/admin/settings/sections/2/entrytypes/2 5 362029 0 0
+/index.php/admin/actions/update/updateDatabase 2 372 0 0
+/admin/entries/blog/83-the-story-so-far-1 3 429314 0 0
+/index.php/admin/actions/elements/getModalBody 11 19867 0 0
+/admin/resources/assetthumbs/25/60 3 858 0 0
+/admin/myaccount 4 417533 0 0
+/admin/settings/fields/edit/8 1 179897 0 0
+/index.php/admin/dashboard 4 299981 0 0
+/admin/resources/assetthumbs/43/60 3 6072 0 0
+/admin/entries/user/new 1 70830 0 0
+/admin/resources/assetthumbs/32/60 2 3586 0 0
+/about/ 1 27790 0 0
+/index.php/admin/actions/assets/deleteFolder 1 16 0 0
+/admin/resources/assetthumbs/42/60 3 15681 0 0
+/admin/resources/assetthumbs/41/60 3 4011 0 0
+/index.php/admin/actions/assets/renameFolder 1 54 0 0
+/admin/users/new 2 203356 0 0
+/index.php/blog/2015/he-speaks 2 61121 1 0
+/admin/resources/assetthumbs/80/60 3 5220 0 0
+/admin/resources/assetthumbs/33/60 2 2856 0 0
+/admin/entries/blog/83-pack-animals 6 772741 0 0
+/blog/ 1 24284 0 0
+/admin/resources/assetthumbs/37/60 3 3948 0 0
+/admin/resources/assetthumbs/79/60 2 2856 0 0
+/index.php/admin/actions/app/checkForUpdates 10 280 0 0
+/index.php/admin/actions/sections/deleteSection 1 16 0 0
+/admin/settings/fields/new 1 178746 0 0
+/index.php/admin/actions/elementIndex/performAction 5 12607 0 0
+/admin/resources/assetthumbs/76/60 4 7576 0 0
+/admin/updates/go/craft 2 55081 0 0
+/admin/users/1 1 109629 0 0
+/admin/resources/assetthumbs/40/60 3 4077 0 0
+/index.php/admin/actions/update/updateFiles 2 294 0 0
+/admin/entries/blog/24-shadrack 2 303507 0 0
+/index.php/admin/actions/users/login 9 666 0 0
+/admin/resources/assetthumbs/39/60 3 4437 0 0
+/admin/entries/portfolio 1 52190 0 0
+/admin/settings/sections 16 1475050 0 0
+/index.php/admin/actions/users/deleteUserPhoto 1 338 0 0
+/blog/index-copy.html 2 48668 0 0
+/admin/resources/assetthumbs/52/60 3 6072 0 0
+/admin/resources/assetthumbs/54/60 3 6372 0 0
+/admin/settings/sections/2 9 554619 0 0
+/admin/settings/fields 4 216819 0 0
+/admin/resources/assetthumbs/35/60 3 3480 0 0
+/admin/resources/assetthumbs/31/60 3 5220 0 0
+/admin/updates 2 97473 0 0
+/assets/bootstrap/css/bootstrap.css.map 1 390518 0 0
+/admin/settings/assets 5 255015 0 0
+/assets/bootstrap/css/bootstrap-theme.css.map 1 47721 0 0
+/admin/entries/blog/new 3 248542 0 0
+/index.php/admin/actions/update/processDownload 2 282 0 0
+/index.php 1 38853 0 0
+/index.php/admin/actions/assets/getTransformInfo 6 12 0 0
+/admin/assets 2 116015 0 0
+/admin/resources/assetthumbs/53/60 3 5628 0 0
+END_SIDER

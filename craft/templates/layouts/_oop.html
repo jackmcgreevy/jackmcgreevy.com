@@ -1,0 +1,100 @@
+{#
+ # OOP template
+ # ---------------
+ #
+ # This template calls upon the object oriented code.
+ # 
+ #}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<title>{% if title is defined %}{{ title }} - {% endif %}{{ siteName }}</title>
+	<link rel="home" href="{{ siteUrl }}" />
+	
+	<style type="text/css">
+		body { margin: 50px; font-family: sans-serif;  }
+		#container { margin: 0 auto; width: 700px;
+			-webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+			        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+		}
+
+		.header-class, .footer-class { display: block; }
+		.header-class a, .footer-class a {  }
+		.header-class { border-radius: 7px 7px 0 0; padding: 25px; }
+		.header-class:after { content: '.'; display: block; height: 0; clear: both; visibility: hidden; }
+		.header-class a { text-decoration: none; }
+		.header-class h1 { float: left; margin: 0; font-weight: normal; font-size: 30px; line-height: 1; }
+		.header-class nav { display: block; float: right; }
+		.header-class nav ul { margin: 0; list-style-type: none; }
+		.header-class nav ul li { float: left; margin: 0 20px; }
+		.header-class nav ul li a { display: block; margin-top: 4px; line-height: 22px; }
+		.header-class nav ul li a:hover,
+		.header-class nav ul li a.active { border-bottom: 2px solid #fff; }
+		.header-class nav ul li a.active { cursor: default; }
+
+		#content { display: block; padding: 25px; background: #fff; }
+		#content h1 { margin-top: 0; font-size: 35px; font-weight: bold; }
+		#content a {  text-decoration: none; }
+		#content a:hover { text-decoration: underline; }
+
+		.footer-class { border-radius: 0 0 7px 7px; padding: 15px; font-size: 12px; text-align: center; width: auto; }
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="{{ siteUrl }}/assets/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="{{ siteUrl }}/assets/css/oop.css">
+	
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Josefin+Sans|Cinzel' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+	
+<body>
+
+{% block body %}
+
+	{% block top %}
+
+		{% include "oop/includes/_nav-bar.html" %}
+
+	{% endblock %}
+
+	{% block burg %}
+
+		
+
+	{#	<div class="burg">
+			<div class="sponge">
+				<main>
+	#}			
+		{% block middle %}
+
+			{# 
+				~/~\~
+					This block requires an extends of "includes/table.php", which additionally will extend "includes/table-head.php" and "includes/table-rd".
+				~/~\~
+			#} 
+
+		{% endblock %} {#/middle/#}
+	{#
+				</main>
+			</div>
+		</div>
+	#}
+
+	{% endblock %}	{#/burg/#}
+
+
+
+	{% block bottom %}
+
+			
+
+	{% endblock %} {#/bottom/#}
+
+{% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+{#
+ # About template
+ #}
+
+{% extends "layouts/_layout-pine" %}
+{% set title = 'About' %}
+
+{% block body %}
+{% include '_includes/nav.html' %}
+	
+	<section class="content-block team-1 team-1-1">
+        <div class="container">
+            <div class="underlined-title">
+                <h1 class="header-black text-center">About Me</h1>
+                </br><hr>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 team-member-wrap">
+                    
+                </div>
+                <!-- /.team-member-wrap -->
+                <div class="col-sm-8 team-member-wrap">
+                    <div class="team-member">
+                        <img src="../assets/img/jack-tumblr.jpg" class="img-responsive" alt="Member Image">
+                        <div class="team-details">
+                            <h4 class="member-name">Jack McGreevy</h4>
+                            <p class="position">Adult Wrench</p>
+                            <p>Donec in velit vel ipsum auctor pulvinar. Vesti bulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod auctor pulvinar.</p>
+                            <ul class="social social-dark">
+                                <li>
+                                    <a href="#"><i class="fa fa-2x fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-2x fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-2x fa-google-plus"></i></a>
+                                </li>
+                            </ul>
+                            <!-- /.social -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /.team-member-wrap -->
+                <div class="col-sm-2 team-member-wrap">
+                    
+                </div>
+                <!-- /.team-member-wrap -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+{% include '_includes/footer.html' %}
+{% endblock %}

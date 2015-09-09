@@ -1,0 +1,226 @@
+
+
+
+/* Put your custom styles here */
+
+hr
+{
+    size: 10px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.hydrogen
+{
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.bg-black, .copyright-bar {
+                    
+}
+
+#container-div {
+    height: 200px;
+    background-color: white;
+}
+
+#container-div2 {
+    height: 198px;
+    background-color: white;
+    margin: 1px 0 1px 0;
+    position: relative;
+    padding: 10px 10px;
+}
+
+.row {
+    margin: 20px;
+}
+
+.indented {
+    text-indent: 25px;
+}
+
+footer.lithium {
+    background-color: #f8f8f8 !important;
+    border-top: 1px solid #e7e7e7;  
+}
+
+footer.lithium p {
+    color: #515157;
+}
+
+#header-2 .main-nav .navbar-nav > li a:hover {
+    color: #cd4545;
+    text-shadow: 1px 1px #e7e7e7;
+}
+
+#header-2 .main-nav .nav {
+    margin-top: 20px;
+}
+
+.helium > .container {
+    
+}
+
+#row-2-paragraph {
+    padding-left: 25px;
+    border-left: 1px solid #cd4545;    
+}
+
+.header-black {
+    color: #000 !important;
+}
+
+.link-black {
+    color: #000; /* #515157; */
+}
+
+.theme-red-color {
+    color: #cd4545;
+    background-color: #cd4545;
+}
+
+.contact-module-1 {
+    display: block;
+    float: left;
+}
+
+.contact-module-2 {
+    display: block;
+    float: right;
+}
+
+.contact-info {
+    text-align: left;
+    padding: 10px 0;
+}
+
+ul.contact-info > li {
+    padding: 0 0 10px 0;
+}
+
+.homepage {
+    padding-top: 0px;
+}
+
+article {
+    margin: 30px 175px 30px;
+    padding: 0 0 5px 0;
+    background-color: #fffffd;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+}
+
+article > p {
+    margin: 10px 50px;
+}
+
+img {
+    margin: 20px auto;
+    padding: 0 auto 0 auto;
+    max-width: 788px;
+    height: auto;
+    background-color: white;
+}
+
+p#date {
+    padding: 15px 0 45px 0;
+}
+
+.post > p {
+	width: auto;
+	margin: 15px auto;
+    padding: 0 30px;
+    background-color: #fffffd;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+}
+
+.post-date {
+    text-align: right;
+    margin: 15px 175px;
+}
+
+.button-space {
+    padding-bottom: 37.5px;
+}   
+
+.button-center {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.button-space > div {
+    margin: 30px 0 0;
+}
+
+.button-space > p {
+    margin: 0 0 0 15px;
+}
+
+.button-space > div > p {
+    line-height: 1.75;
+    line-grid: inherit;
+}
+
+/* Bootstrap - page optimization */
+
+@media (min-width: 320px) {
+  .container {
+    .post > p {
+        width: 312px;
+    }
+  }
+}
+
+@media (min-width: 320px) {
+  .container > article {
+    margin: 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    .post > p {
+        width: 750px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    .post > p {
+        width: 970px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    .post > p {
+        width: 1170px;
+    }
+  }
+}
+
+
+/* nav */
+
+@media (min-width: 320px) {
+  .main-nav {
+    height: 100px;
+  }
+}
+
+@media (min-width: 320px) {
+  .container > article {
+    margin: 0 0;
+  }
+}
+
+
+
+

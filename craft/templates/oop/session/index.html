@@ -1,0 +1,18 @@
+{% extends 'layouts/_layout' %}
+
+{% block div %}
+	<div id="container">
+	{% block content %}
+		<h1>{{ entry.title }}</h1>
+
+		<p>Before a boy becomes a man, he must first learn to swim. Only then can he hope to vanquish the seas.</p>
+
+		<h2>Recent Posts</h2>
+		<ul>
+			{% for entry in craft.entries.section('blog').limit(5).find() %}
+				<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+			{% endfor %}
+		</ul>
+	{% endblock %}
+	</div>
+{% endblock %}

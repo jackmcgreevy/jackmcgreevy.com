@@ -1,0 +1,54 @@
+{#
+ # Services template
+ #}
+
+{% extends 'layouts/_layout-pine' %}
+{% set title = "Services" %}
+
+{% block body %}
+{% include '_includes/nav.html' %}
+
+    <section id="content-2-2" class="content-block  content-2-2 bg-stalemate">
+        
+        <div class="container underlined-title">
+        <h1 class="header-black text-center">Services</h1>
+        </br><hr>
+            <!-- Start Row -->
+            <div class="row">
+                <div class="col-sm-4 col-xs-12 text-center">
+                    <div class="icon-outline">
+                        <span class="fa fa-send"></span>
+                    </div>
+                    <h3 class="link-black">Create excellent paper airplanes</h3>
+                    <p>Etsy ethnic actually hella Odd Future meggings shabby chic leggings salvia master cleanse stumptown.</p>
+                </div>
+                <div class="col-sm-4 col-xs-12 text-center">
+                    <div class="icon-outline">
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <h3 class="link-black">Draw stars that are out of this world!</h3>
+                    <p>Etsy ethnic actually hella Odd Future meggings shabby chic leggings salvia master cleanse stumptown.</p>
+                </div>
+                <div class="col-sm-4 col-xs-12 text-center">
+                    <div class="icon-outline">
+                        <span class="fa fa-tags"></span>
+                    </div>
+                    <h3 class="link-black">Claim a complimentary dogtag necklace</h3>
+                    <p>Etsy ethnic actually hella Odd Future meggings shabby chic leggings salvia master cleanse stumptown.</p>
+                </div>
+            </div>
+            <!--// END Row -->
+        </div>
+    </section>
+
+{% include '_includes/footer.html' %}
+{% endblock %}
+
+{#
+<h2>Recent Posts</h2>
+<ul>
+	{% for entry in craft.entries.section('blog').limit(5).find() %}
+		<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+	{% endfor %}
+</ul> 
+#}

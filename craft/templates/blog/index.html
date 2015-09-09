@@ -1,0 +1,103 @@
+{#
+ # Blog index template
+ #}
+
+{% extends "layouts/_layout-pine.html" %}
+{% set title = "Blog" %}
+
+{% block body %}	
+{% include '_includes/nav.html' %}
+
+    <div class="content-block blog-1">
+            <div class="container text-center">
+                <div class="underlined-title">
+                    <h1 class="header-black text-center">My Blog</h1>
+                    </br><hr>
+                    <h2>Can you say intermittent?</h2>
+                </div>
+                <div class="col-sm-10 col-sm-offset-1">
+                    
+
+                    {% for entry in craft.entries.section('blog').find() %}
+
+                        {% if loop.index %}
+
+                        <div class="post">
+
+                            <h2><a href="{{ entry.url }}">{{ entry.title }}</a></h2>
+                            <div class="row">
+                                <div class="col-sm-3">                                
+                                </div>
+                                <div class="col-sm-6">
+                                
+                                    
+                                    
+                                </div>
+                                <div class="col-sm-3">
+                                    
+                                </div>
+                            </div>
+                            {#
+                            {{ entry.body|slice(0, 257)|trim('.')|raw }}&hellip;
+                            #}
+                            <p class="capsule">{{ entry.articleSummary }}</p>
+                            {# <p><a href="{{ entry.url }}">Continue reading</a></p>
+                            {#{{ entry.body.getPage(1) }} cut this out
+                            <p><i>Posted on {{ entry.postDate.format('F d, Y') }}</i></p> #}
+                            <div class="text-center button-space">
+                                <div>
+                                    <p class="small text-muted post-date">
+                                        Posted on {{ entry.postDate.format('F d, Y') }}
+                                    </p>
+                                </div>
+                                <p>
+                                    <a href="{{ entry.url }}" class="btn btn-sm btn-primary button-center">
+                                        Read More
+                                    </a>
+                                </p>
+                                
+                            </div>
+
+                        {% else %}
+
+                        </div>
+
+                        {% endif %}                            
+
+                    {% endfor %}
+
+                    </div>
+                    <hr>
+                    <nav>
+                        <ul class="pagination">
+                            <li class="disabled">
+                                <a href="#" aria-label="Previous"><span class="fa fa-angle-double-left"></span></a>
+                            </li>
+                            <li class="active">
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                            <li>
+                                <a href="#">5</a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Next"><span class="fa fa-angle-double-right"></span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- /.col-sm-10 -->
+            </div>
+            <!-- /.container -->
+        </div>
+
+{% include '_includes/footer.html' %}
+{% endblock %}

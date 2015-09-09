@@ -1,0 +1,72 @@
+
+{% extends 'layouts/_oop.html' %}
+
+
+{% block body %}
+
+	<header id="header">
+
+			<nav>
+
+				<ul class="linkz">
+					<li><h1><a id="sitename" href="{{ siteUrl }}">jackmcgreevy</a></h1></li>
+
+					<li><a href="{{ url('about') }}">About</a>
+					<li><a href="{{ url('portfolio') }}">Portfolio</a></li>
+					<li><a href="{{ url('services') }}">Services</a></li>
+					<li><a href="{{ url('blog') }}" {% if craft.request.firstSegment == 'blog' %}class="active"{% endif %}>Blog</a></li>
+				</ul>	
+
+			</nav>
+
+		</header>
+
+	<div class="grem">
+
+
+		<div class="headra">
+			<h1 class="ferk">Object Oriented PHP</h1>
+		</div>
+
+	</div>	
+
+	<div class="burg">
+
+		<div class="sponge">
+
+			<main>
+
+				{#{% include 'layouts/_layout-pine' %}#}
+
+			</main>
+
+		</div>
+
+	</div>
+
+	<footer>
+
+		<div colspan="2" class="ramses">				
+
+			<table class="bran">
+				<tr>
+					<td height="">
+						<p class="bird">
+							jackmcgreevy.com
+						</p>
+					</td>
+					<td height="">
+						<p class="worm">
+							(408) - 813 - 8397 | <i>Web Content</i>
+						</p>
+					</td>
+				</tr>
+			</table>	
+
+		</div>
+
+	</footer>
+
+</html>
+
+{% endblock %}
