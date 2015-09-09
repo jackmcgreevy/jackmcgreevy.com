@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.4 (build 20140726)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2009                
-POS_TIME 2688                
-POS_VISITOR 7483                
-POS_DAY 8488                
-POS_DOMAIN 3307                
-POS_LOGIN 3594                
-POS_ROBOT 3749                
-POS_WORMS 4022                
-POS_EMAILSENDER 4153                
-POS_EMAILRECEIVER 4296                
-POS_SESSION 8642                
-POS_SIDER 8821                
-POS_FILETYPES 4431                
-POS_DOWNLOADS 4677                
-POS_OS 4725                
-POS_BROWSER 4854                
-POS_SCREENSIZE 5034                
-POS_UNKNOWNREFERER 5108                
-POS_UNKNOWNREFERERBROWSER 5278                
-POS_ORIGIN 5394                
-POS_SEREFERRALS 5529                
-POS_PAGEREFS 5673                
-POS_SEARCHWORDS 6036                
-POS_KEYWORDS 6188                
-POS_MISC 2352                
-POS_ERRORS 6247                
-POS_CLUSTER 3450                
-POS_SIDER_404 6349                
+POS_TIME 2690                
+POS_VISITOR 7984                
+POS_DAY 9810                
+POS_DOMAIN 3405                
+POS_LOGIN 3737                
+POS_ROBOT 3892                
+POS_WORMS 4234                
+POS_EMAILSENDER 4365                
+POS_EMAILRECEIVER 4508                
+POS_SESSION 10066               
+POS_SIDER 10256               
+POS_FILETYPES 4643                
+POS_DOWNLOADS 4900                
+POS_OS 4948                
+POS_BROWSER 5089                
+POS_SCREENSIZE 5355                
+POS_UNKNOWNREFERER 5429                
+POS_UNKNOWNREFERERBROWSER 5629                
+POS_ORIGIN 5775                
+POS_SEREFERRALS 5913                
+POS_PAGEREFS 6057                
+POS_SEARCHWORDS 6506                
+POS_KEYWORDS 6658                
+POS_MISC 2354                
+POS_ERRORS 6717                
+POS_CLUSTER 3593                
+POS_SIDER_404 6831                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,14 +46,14 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20150904064058 57 12520 11365201597229
+LastLine 20150908205827 163 38913 6818493664266
 FirstTime 20150901001303
-LastTime 20150904064058
-LastUpdate 20150904082534 57 0 57 0 0
-TotalVisits 28                  
-TotalUnique 22                  
+LastTime 20150908205827
+LastUpdate 20150909080353 163 0 163 0 0
+TotalVisits 58                  
+TotalUnique 42                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 22                  
+MonthHostsUnknown 42                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
@@ -72,40 +72,43 @@ END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 2 17 776242 2 3 71291
-1 3 9 380051 1 2 46577
-2 0 0 0 1 1 37953
+0 2 17 776242 3 4 109241
+1 3 9 380051 4 6 188607
+2 10 34 1415688 2 3 99530
 3 3 4 117063 0 0 0
 4 70 113 2401216 16 27 286946
-5 1 1 37888 0 0 0
+5 1 1 37888 0 11 507078
 6 4 15 743162 0 0 0
-7 0 0 0 2 2 74159
-8 2 13 667305 0 0 0
-9 1 1 37889 0 0 0
-10 0 0 0 0 0 0
-11 2 8 342156 0 1 24401
-12 1 1 37953 0 0 0
-13 1 1 37888 0 0 0
+7 0 0 0 3 4 135343
+8 5 27 1372468 1 3 384
+9 4 26 1250400 0 0 0
+10 2 13 583284 1 3 68967
+11 2 8 342156 1 2 62354
+12 3 3 113796 2 2 75763
+13 48 148 4682491 2 8 215259
 14 0 0 0 0 0 0
-15 0 0 0 0 0 0
-16 1 1 37886 0 0 0
-17 7 18 824817 0 4 100121
-18 2 9 345112 0 0 0
-19 4 19 771285 0 1 24859
-20 3 14 705165 2 2 75763
-21 1 1 26853 1 8 132161
-22 1 1 37886 1 1 35901
-23 0 0 0 0 0 0
+15 25 70 2467101 1 15 311301
+16 9 31 1501229 2 13 281879
+17 8 28 1255649 1 6 153912
+18 2 9 345112 1 9 330453
+19 21 68 2494948 3 27 598923
+20 5 16 782896 2 4 122304
+21 3 12 611870 2 9 155481
+22 2 2 77323 1 1 35901
+23 7 28 1281464 0 6 148096
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 5
-us 97 171 4704902
-br 8 54 2613382
+BEGIN_DOMAIN 8
+us 209 482 15375946
+br 22 165 8016527
 it 2 13 667304
-de 1 1 37953
+de 2 2 75909
 ph 1 7 304276
+zz 1 1 37901
+nl 1 1 38242
+pe 1 11 517392
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -119,10 +122,12 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
-BEGIN_ROBOT 4
-spider 5 187875 20150903204122 0
-googlebot 1 35571 20150903005642 0
-bot[\s_+:,\.\;\/\\-] 1 35901 20150901225603 0
+BEGIN_ROBOT 6
+googlebot 21 880487 20150908184247 0
+spider 11 385280 20150908124257 0
+bot[\s_+:,\.\;\/\\-] 5 190262 20150908101916 0
+crawl 2 78945 20150906012325 0
+netcraft 1 38120 20150908131357 0
 robot 1 0 20150903043152 0
 END_ROBOT
 
@@ -143,16 +148,16 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 10
-css 75 2701822 0 0
-png 6 13855 0 0
-ttf 4 488368 0 0
-woff2 2 113560 0 0
-woff 3 119668 0 0
-html 30 1154367 0 0
-jpg 1 51613 0 0
-js 50 2674025 0 0
-Unknown 70 978695 0 0
-gif 5 31844 0 0
+css 225 7902088 0 0
+png 15 36743 0 0
+ttf 10 1220920 0 0
+woff2 3 170340 0 0
+woff 14 597608 0 0
+html 64 2465365 0 0
+jpg 2 103226 0 0
+js 189 9925765 0 0
+Unknown 148 2495919 0 0
+gif 12 115523 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -160,23 +165,28 @@ BEGIN_DOWNLOADS 0
 END_DOWNLOADS
 
 # OS ID - Hits
-BEGIN_OS ID - Hits - Pages 5
-macosx 134 72
-ios_iphone 1 1
-Unknown 14 14
-linux 1 1
-win7 96 21
+BEGIN_OS ID - Hits - Pages 6
+macosx 421 171
+winxp 1 1
+ios_iphone 6 6
+Unknown 19 19
+linux 4 4
+win7 231 38
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 7
-iphone 1 1
-chrome36.0.1985.143 74 11
-safari9.0 111 68
-mozilla 13 13
-chrome44.0.2403.157 45 14
-Unknown 1 1
-chrome37.0.2062.120 1 1
+BEGIN_BROWSER 11
+firefox2.0.0.11 1 1
+iphone 2 2
+chrome45.0.2454.85 17 6
+safari9.0 362 152
+chrome36.0.1985.143 185 25
+mozilla 20 20
+chrome44.0.2403.157 60 19
+chrome37.0.2062.120 4 4
+safari8.0 4 4
+Unknown 3 3
+chrome32.0.1700.107 24 3
 END_BROWSER
 
 # Screen size - Hits
@@ -184,23 +194,25 @@ BEGIN_SCREENSIZE 0
 END_SCREENSIZE
 
 # Unknown referer OS - Last visit date
-BEGIN_UNKNOWNREFERER 2
+BEGIN_UNKNOWNREFERER 3
 WWW-Mechanize/1.74 20150904064058
-Mozilla/4.0_(compatible;_Synapse) 20150904055017
+Google_favicon 20150908205827
+Mozilla/4.0_(compatible;_Synapse) 20150904125609
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
-BEGIN_UNKNOWNREFERERBROWSER 1
+BEGIN_UNKNOWNREFERERBROWSER 2
 WWW-Mechanize/1.74 20150904064058
+Google_favicon 20150908205827
 END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 7 7
+From0 32 32
 From1 0 0
 From2 0 0
-From3 22 22
-From4 80 217
+From3 39 39
+From4 168 611
 From5 0 0
 END_ORIGIN
 
@@ -210,11 +222,14 @@ END_SEREFERRALS
 
 # External page referers - Pages - Hits
 # The 25 first Pages must be first (order not required for others)
-BEGIN_PAGEREFS 5
-http://best-seo-report.com 13 13
-http://success-seo.com/try.php 6 6
+BEGIN_PAGEREFS 8
+http://best-seo-report.com 16 16
+http://success-seo.com/try.php 16 16
+http://buttons-for-website.com 2 2
+http://pizza-imperia.com 1 1
+http://hvd-store.com 1 1
+http://burger-imperia.com 1 1
 http://mcc.godaddy.com/park/q2WuoaIyoT5uraWfpzIzYaOvrt==/fe/p2uzqzWuqJWapJW0YaOvrt== 1 1
-http://buttons-for-website.com 1 1
 http://hundejo.com 1 1
 END_PAGEREFS
 
@@ -229,119 +244,159 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 2
-302 3 29630
-404 38 621155
+BEGIN_ERRORS 3
+302 9 85231
+206 3 384
+404 101 2229013
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 14
+BEGIN_SIDER_404 15
 /home/jack/public_html 1 -
-/apple-touch-icon-precomposed.png 1 -
-/robots.txt 2 -
-/blog/2015/assets/js/jquery-1.11.1.min.js 3 http://jackmcgreevy.com/blog/2015/the-story-so-far
-/blog/2015/assets/ico/favicon.png 1 http://jackmcgreevy.com/blog/2015/the-story-so-far
-/apple-touch-icon.png 2 -
-/assets/ico/favicon.png 2 http://jackmcgreevy.com/
-/blog/2015/assets/js/bootstrap.min.js 3 http://jackmcgreevy.com/blog/2015/the-story-so-far
-/apple-touch-icon-120x120-precomposed.png 1 -
+/apple-touch-icon-precomposed.png 11 -
+/robots.txt 9 -
+/wordpress/ 1 -
+/blog/2015/assets/js/jquery-1.11.1.min.js 8 http://jackmcgreevy.com/blog/2015/the-story-so-far
+/apple-touch-icon.png 13 -
+/blog/2015/assets/ico/favicon.png 5 http://jackmcgreevy.com/blog/2015/the-story-so-far
+/blog/2015/assets/js/bootstrap.min.js 8 http://jackmcgreevy.com/blog/2015/the-story-so-far
+/assets/ico/favicon.png 10 http://jackmcgreevy.com/
+/apple-touch-icon-120x120-precomposed.png 2 -
 /js/contact-form.php 14 http://jackmcgreevy.com/contact
-/blog/2015/assets/js/bskit-scripts.js 3 http://jackmcgreevy.com/blog/2015/the-story-so-far
-/apple-touch-icon-120x120.png 1 -
+/blog/2015/assets/js/bskit-scripts.js 8 http://jackmcgreevy.com/blog/2015/the-story-so-far
 /index.php/assets/css/normalize.css 1 http://jackmcgreevy.com/index.php/services
-/blog/2015/assets/js/plugins.js 3 http://jackmcgreevy.com/blog/2015/the-story-so-far
+/apple-touch-icon-120x120.png 2 -
+/blog/2015/assets/js/plugins.js 8 http://jackmcgreevy.com/blog/2015/the-story-so-far
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 22
-73.202.153.133 73 135 3207990 20150903173212
+BEGIN_VISITOR 42
+73.202.153.133 171 410 12218312 20150908193044
 23.243.245.105 10 22 966404 20150901042002
+50.188.56.107 6 17 764072 20150904235523
 187.65.93.221 2 13 667305 20150902083425
+189.62.128.42 2 13 667305 20150906161111
+76.250.156.253 2 13 667299 20150904194040
+189.30.94.90 2 13 667298 20150908091639
 186.208.227.181 2 13 667306 20150903190506
 82.84.208.132 2 13 667304 20150901062119
+177.39.145.89 2 13 667305 20150907134415
+172.245.117.21 2 2 75775 20150904125609
 177.104.10.121 2 13 667277 20150901200909
-172.245.124.190 2 2 75776 20150904055017 20150904055017 /
+200.193.47.162 2 13 667305 20150905160301
+172.245.124.190 2 2 75776 20150904055017
+179.183.225.94 2 13 667278 20150908085233
 198.23.209.75 2 2 75773 20150904033638
-107.173.158.6 1 1 37886 20150903225049
-23.95.130.195 1 1 37886 20150903013535
-180.191.139.171 1 7 304276 20150904012014
-107.173.160.156 1 1 37889 20150903035411
+186.233.223.75 1 12 545214 20150906020702
 107.173.154.117 1 1 37886 20150903161454
 5.199.130.188 1 1 37953 20150903120500
+107.173.153.123 1 1 37889 20150904103338
+107.173.168.33 1 1 37885 20150904082032
 107.173.155.199 1 1 37885 20150903061357
-172.245.117.21 1 1 37888 20150903203932
+181.67.110.174 1 11 517392 20150907234343
+54.206.9.201 1 1 37973 20150904064058
+104.233.77.199 1 1 37901 20150905025324
+64.113.44.206 1 1 37959 20150906152412
+107.173.158.6 1 1 37886 20150903225049
+23.95.130.195 1 1 37886 20150903013535
+186.195.141.3 1 12 545395 20150906105918
+213.61.149.100 1 1 37956 20150907124154
+77.247.181.162 1 1 38242 20150907151557
+180.191.139.171 1 7 304276 20150904012014
+107.173.160.156 1 1 37889 20150903035411
+187.109.228.42 1 12 545213 20150908092756
+66.249.84.195 1 1 37967 20150908205827 20150908205827 /
+66.249.84.253 1 1 39764 20150908205827 20150908205827 /blog
 177.147.91.56 1 7 304270 20150902114701
 107.173.167.187 1 1 37889 20150903091419
 107.173.149.173 1 1 37888 20150903182852
 187.6.135.207 1 8 307224 20150901183859
+200.140.61.37 1 10 430832 20150908175849
 107.173.148.151 1 1 37889 20150904012513
-54.206.9.201 1 1 37973 20150904064058 20150904064058 /
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 4
+BEGIN_DAY 8
 20150901 81 173 4991382 8
 20150902 3 20 971575 2
 20150903 20 42 1908947 13
-20150904 5 11 455913 5
+20150904 78 225 7618450 14
+20150905 4 15 744643 3
+20150906 14 60 2668334 6
+20150907 5 26 1260895 4
+20150908 34 121 4869271 8
 END_DAY
 
 # Session range - Number of visits
-BEGIN_SESSION 4
-30s-2mn 1
-15mn-30mn 1
-2mn-5mn 1
-0s-30s 23
+BEGIN_SESSION 5
+5mn-15mn 2
+0s-30s 48
+2mn-5mn 2
+30s-2mn 2
+15mn-30mn 2
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
-BEGIN_SIDER 45
-/ 30 1154367 25 17
-/index.php/admin/actions/users/getAuthTimeout 13 208 0 0
+BEGIN_SIDER 58
+/ 64 2465365 52 33
+/index.php/admin/actions/users/getAuthTimeout 33 558 0 2
+/blog 16 659406 3 3
+/assets/fonts/fontawesome-webfont.ttf 10 1220920 0 10
+/admin/login 9 236177 3 3
+/admin/resources/fonts/Craft.woff 7 168560 0 1
+/assets/fonts/fontawesome-webfont.woff 7 429048 0 2
+/blog/2015/the-story-so-far 7 322863 0 0
+/index.php/admin/actions/elementIndex/getElements 5 68275 0 0
+/contact 5 197275 0 1
 /index.php/admin/actions/assets/uploadFile 5 150 0 0
-/assets/fonts/fontawesome-webfont.ttf 4 488368 0 4
-/blog 4 164904 1 1
-/index.php/admin/actions/elementIndex/getElements 3 58397 0 0
-/services 3 110925 0 0
-/about 3 111901 0 0
-/admin/login 3 80225 2 1
-/blog/2015/the-story-so-far 3 137133 0 0
-/contact 2 77785 0 1
-/admin/resources/fonts/Craft.woff 2 48160 0 1
-/assets/fonts/fontawesome-webfont.woff2 2 113560 0 1
+/admin/dashboard 4 288929 0 0
+/index.php/admin/actions/app/getCpAlerts 4 8 0 0
+/services 4 148075 0 0
+/about 4 149361 0 0
+/index.php/admin/actions/app/checkForUpdates 4 112 0 0
+/index.php/admin/actions/dashboard/getFeedItems 4 48800 0 0
+/index.php/admin/actions/users/login 3 222 0 0
+/admin/entries 3 158341 0 0
+/assets/fonts/fontawesome-webfont.woff2 3 170340 0 1
 /admin/resources/assetthumbs/8/60 1 1626 0 0
 /admin/resources/assetthumbs/42/60 1 5227 0 0
 /admin/resources/assetthumbs/41/60 1 1337 0 0
-/index.php/admin/actions/app/getCpAlerts 1 2 0 0
-/admin/dashboard 1 72780 0 0
-/admin/entries 1 52709 0 0
+/index.php/admin/actions/tasks/getRunningTaskInfo 1 0 0 0
+/index.php/admin/actions/update/cleanUp 1 54 0 0
 /admin/resources/assetthumbs/87/60 1 1428 0 0
+/index.php/admin/actions/update/getAvailableUpdates 1 1809 0 0
+/index.php/admin/actions/update/backupDatabase 1 199 0 0
 /admin/resources/assetthumbs/86/60 1 2047 0 0
-/assets/fonts/fontawesome-webfont.woff 1 71508 0 0
+/blog/2015/he-speaks 1 38901 0 0
 /admin/resources/assetthumbs/74/60 1 1168 0 0
-/admin/resources/assetthumbs/37/60 1 1316 0 0
 /admin/resources/assetthumbs/55/60 1 1947 0 0
-/index.php/admin/actions/app/checkForUpdates 1 28 0 0
-/admin/resources/assetthumbs/73/60 1 1291 0 0
+/admin/resources/assetthumbs/37/60 1 1316 0 0
+/index.php/admin/actions/update/backupFiles 1 139 0 0
 /admin/resources/assetthumbs/72/60 1 1421 0 0
+/admin/resources/assetthumbs/73/60 1 1291 0 0
+/index.php/admin/actions/tasks/runPendingTasks 1 0 0 0
 /admin/resources/assetthumbs/75/60 1 1135 0 0
 /admin/resources/assetthumbs/36/60 1 1846 0 0
+/admin/updates/go/craft 1 27570 0 0
+/index.php/admin/actions/update/prepare 1 179 0 0
 /admin/resources/assetthumbs/84/60 1 1894 0 0
 /admin/resources/assetthumbs/40/60 1 1359 0 0
-/index.php/admin/actions/users/login 1 74 0 0
-/admin/resources/assetthumbs/39/60 1 1479 0 0
+/index.php/admin/actions/update/updateFiles 1 147 0 0
 /admin/resources/assetthumbs/88/60 1 1740 0 0
+/admin/resources/assetthumbs/39/60 1 1479 0 0
 /admin/resources/assetthumbs/38/60 1 1114 0 0
 /admin/resources/assetthumbs/52/60 1 2024 0 0
 /admin/resources/assetthumbs/54/60 1 2124 0 0
 /admin/resources/assetthumbs/31/60 1 1740 0 0
+/admin/updates 1 48765 0 0
+/index.php/admin/actions/update/updateDatabase 1 186 0 0
 /admin/resources/assetthumbs/25/60 1 286 0 0
+/index.php/admin/actions/update/processDownload 1 141 0 0
 /admin/assets 1 58035 0 0
 /admin/resources/assetthumbs/53/60 1 1876 0 0
-/index.php/admin/actions/dashboard/getFeedItems 1 12197 0 0
 /admin/resources/assetthumbs/85/60 1 1793 0 0
 /admin/resources/assetthumbs/43/60 1 2024 0 0
 END_SIDER
