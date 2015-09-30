@@ -10,16 +10,16 @@
 return array(
 
 	// The database server name or IP address. Usually this is 'localhost' or '127.0.0.1'.
-	'server' => 'localhost',
-
+	'server' => '192.168.10.10',
+	# 192.168.10.10
 	// The database username to connect with.
-	'user' => 'jack_jack',
+	'user' => 'homestead',
 
 	// The database password to connect with.
-	'password' => 'jasdffu7',
+	'password' => 'secret',
 
 	// The name of the database to select.
-	'database' => 'jack_jackmcgreevy',
+	'database' => 'jackmcgreevy',
 
 	// The prefix to use when naming tables. This can be no more than 5 characters.
 	'tablePrefix' => 'craft',
